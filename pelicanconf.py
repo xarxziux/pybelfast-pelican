@@ -32,12 +32,14 @@ LINKS = ()
 SOCIAL = ()
 
 DEFAULT_PAGINATION = False
+DEFAULT_CATEGORY = 'Home'
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
 MENUITEMS = (
-  ('Home','/'),
-  ('About','/about/'),
-  ('Meetup','/meetup/')
+  ('Home','index.html'),
+  ('About','about.html')
 )
