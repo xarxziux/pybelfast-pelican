@@ -8,8 +8,8 @@ SITEURL = ''
 
 PATH = 'content'
 
-#ARTICLE_URL = 'meetup/'
-#ARTICLE_SAVE_AS = 'meetup/{slug}/index.html'
+ARTICLE_URL = 'meetup/{slug}'
+ARTICLE_SAVE_AS = 'meetup/{slug}/index.html'
 
 TIMEZONE = 'Europe/Dublin'
 
@@ -38,6 +38,7 @@ DEFAULT_PAGINATION = False
 DEFAULT_CATEGORY = 'Misc'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
+SUMMARY_MAX_LENGTH = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
