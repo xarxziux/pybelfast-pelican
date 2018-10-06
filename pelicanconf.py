@@ -8,6 +8,9 @@ SITEURL = ''
 
 PATH = 'content'
 
+#ARTICLE_URL = 'meetup/'
+#ARTICLE_SAVE_AS = 'meetup/{slug}/index.html'
+
 TIMEZONE = 'Europe/Dublin'
 
 DEFAULT_LANG = 'en'
@@ -32,7 +35,7 @@ LINKS = ()
 SOCIAL = ()
 
 DEFAULT_PAGINATION = False
-DEFAULT_CATEGORY = 'Home'
+DEFAULT_CATEGORY = 'Misc'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
@@ -40,6 +43,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 #RELATIVE_URLS = True
 
 MENUITEMS = (
-  ('Home','index.html'),
-  ('About','about.html')
+  ('Home','/index.html'),
+  ('About','/pages/about.html'),
+  ('Meetup','/category/meetup.html')
 )

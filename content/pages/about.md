@@ -1,6 +1,7 @@
 Title: About
 Date: 2018-09-14
 Category: About
+Slug: about
 
 ## What is pyBelfast?
 pyBelfast is a group of people who use Python in their work or personal
